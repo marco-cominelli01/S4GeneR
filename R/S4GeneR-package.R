@@ -1,0 +1,33 @@
+#' S4GeneR - S4 Classes and Methods for Gene Representation
+#'
+#' Provides a comprehensive set of S4 classes and respective constructor
+#' functions for representing the classification of genes. The first class is
+#' the 'Gene' virtual class, from which the 'CodingGene' and 'NonCodingGene'
+#' classes are derived. The 'NonCodingGene' class is a virtual class from
+#' which 'HousekeepingNonCodingGene' and 'RegulatoryNonCodingGene' virtual
+#' classes are derived. From 'HousekeepingNonCodingGene' class, 'tRNAGene' and
+#' 'rRNAGene' classes are derived, while from 'RegulatoryNonCodingGene'
+#' class 'SmallNonCodingGene' and 'LongNonCodingGene' classes are derived.
+#' From the virtual class 'SmallNonCodingGene', 'miRNAGene', 'siRNAGene',
+#' 'piRNAGene', 'snRNAGene' and 'snoRNAGene' classes are derived. The package
+#' also provides methods to access and modify all attributes of these objects.
+#' Finally, additional functions are provided to compute the gene product
+#' length and to plot the gene (and corresponding transcript if defined).
+#'
+#' Package: S4GeneR \cr
+#' Type: Package \cr
+#' Version: 0.99.0 \cr
+#' Date: 2024-09-04 \cr
+#' License: GPL-3 \cr
+#'
+#' @name S4GeneR-package
+#' @aliases S4GeneR-package S4GeneR
+#' _PACKAGE
+#' @author Marco Cominelli\cr
+#' Politecnico di Milano\cr
+#' Maintainer: Marco Cominelli\cr
+#' E-mail:
+#' <marco.cominelli@mail.polimi.it>
+#' @return 'NULL'
+
+NULL
